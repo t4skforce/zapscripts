@@ -13,7 +13,7 @@ from org.apache.commons.httpclient import URI
 from org.zaproxy.zap.extension.alert import ExtensionAlert
 from org.parosproxy.paros.core.scanner import Alert
 
-paths = ["/App_Config","/App_Config/ConnectionStrings.config","/sitecore/","/sitecore/admin","/sitecore/admin/login.aspx","/sitecore/debug","/sitecore/default.aspx","/sitecore/login","/sitecore/login.aspx","/sitecore/login/default.aspx","/sitecore/shell/WebService","/sitecore/shell/webservice/service.asmx","/sitecore/shell/webservice/service2.asmx","/sitecore/shell/sitecore.version.xml","/sitecore/service","/sitecore/service/nolayout.aspx"]
+paths = ["/App_Config","/App_Config/ConnectionStrings.config","/sitecore/","/sitecore/admin","/sitecore/admin/login.aspx","/sitecore/debug","/sitecore/default.aspx","/sitecore/login","/sitecore/login.aspx","/sitecore/login/default.aspx","/sitecore/shell/WebService","/sitecore/shell/webservice/service.asmx","/sitecore/shell/webservice/service2.asmx","/sitecore/shell/sitecore.version.xml","/sitecore/service"]
 
 def addToHistory(msg):
 	extHistory = Control.getSingleton().getExtensionLoader().getExtension(ExtensionHistory.NAME)
